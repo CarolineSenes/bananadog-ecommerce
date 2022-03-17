@@ -14,7 +14,7 @@ const Container = styled.div`
 
 const Announcement = () => {
   return (
-    <Container>OFFRE SPECIALE : -20% avec le code "OPEN2022"</Container>
+    <Container>OFFRE SPECIALE : -20% avec le code "BANANADOG"</Container>
   )
 }
 

@@ -1,13 +1,13 @@
 import Announcement from '../components/Announcement'
 import Navbar from '../components/Navbar'
-import Slider from '../components/Slider'
+import Banner from '../components/Banner'
 
 const Home = () => {
   return (
     <div>
       <Announcement/>
       <Navbar />
-      <Slider/>
+      <Banner/>
     </div>
   )
 }
