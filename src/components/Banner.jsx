@@ -1,5 +1,4 @@
 import styled from "@emotion/styled";
-//import { ArrowLeft, ArrowRight } from "@mui/icons-material";
 
 const Container = styled.div`
   width: 100%;
