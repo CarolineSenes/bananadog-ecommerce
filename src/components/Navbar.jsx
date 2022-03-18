@@ -74,8 +74,8 @@ const Navbar = () => {
           <Logo>BANANA DOG</Logo>
         </Center>
         <Right>
-          <MenuItem>REGISTER</MenuItem>
-          <MenuItem>SIGN IN</MenuItem>
+          <MenuItem>NOUVEAU</MenuItem>
+          <MenuItem>CONNEXION</MenuItem>
           <MenuItem>
             <Badge badgeContent={1} color="primary">
               <ShoppingCartOutlined />
