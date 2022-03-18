@@ -13,7 +13,7 @@ const Wrapper = styled.div`
   display: flex;
 `;
 
-const Slide = styled.div`
+const Card = styled.div`
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -62,7 +62,7 @@ function Banner() {
   return (
     <Container>
       <Wrapper>
-        <Slide bg="f5fafd">
+        <Card bg="f5fafd">
           <ImgContainer>
             <Image src="/assets/v2.jpg" />
           </ImgContainer>
@@ -71,7 +71,7 @@ function Banner() {
             <Desc>NOUVELLE COLLECTION</Desc>
             <Button>ACHETER</Button>
           </InfoContainer>
-        </Slide>
+        </Card>
       </Wrapper>
     </Container>
   );
