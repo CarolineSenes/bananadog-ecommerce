@@ -1,10 +1,13 @@
 import styled from "@emotion/styled";
 import { categories } from "../data";
 import CategoryItem from "./CategoryItem";
+import { mobile } from "../responsive";
 
 const Container = styled.div`
 display: flex;
 justify-content: space-between;
+${mobile({ flexDirection: "column" })}
+
 `;
 
 const Categories = () => {

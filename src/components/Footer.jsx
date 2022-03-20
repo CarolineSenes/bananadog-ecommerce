@@ -1,8 +1,12 @@
 import styled from "@emotion/styled";
 import { Facebook, Instagram, MailOutline, Phone, Pinterest, Room, Twitter } from "@mui/icons-material";
+import { mobile } from "../responsive";
+
 
 const Container = styled.div`
   display: flex;
+  ${mobile({ flexDirection: "column" })}
+
 `;
 const Left = styled.div`
   flex: 1;
@@ -19,6 +23,7 @@ const Desc = styled.p`
 
 const SocialContainer = styled.div`
   display: flex;
+
 `;
 const SocialIcon = styled.div`
   width: 40px;
@@ -57,16 +62,14 @@ const ListItem = styled.li`
 const Right = styled.div`
   flex: 1;
   padding: 20px;
+  ${mobile({ backgroundColor: "#eee" })}
+
 `;
 
 const ContactItem =styled.div`
 margin-bottom: 20px;
 display: flex;
 align-items: center;
-`
-
-const Payment =styled.div`
-
 `
 
 const Footer = () => {

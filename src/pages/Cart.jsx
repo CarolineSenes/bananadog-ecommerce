@@ -3,10 +3,15 @@ import Announcement from "../components/Announcement";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { Add, Remove, Topic } from "@mui/icons-material";
+import { mobile } from "../responsive";
+
 
 const Container = styled.div``;
+
 const Wrapper = styled.div`
   padding: 20px;
+  ${mobile({ padding: "10px" })}
+
 `;
 const Title = styled.h1`
   text-transform: uppercase;
@@ -18,6 +23,8 @@ const Top = styled.div`
   align-items: center;
   justify-content: space-between;
   padding: 20px;
+  ${mobile({ padding: "10px 0" })}
+
 `;
 
 const TopButton = styled.button`
@@ -29,9 +36,12 @@ const TopButton = styled.button`
   background-color: ${(props) =>
     props.type === "filled" ? "black" : "transparent"};
   color: ${(props) => props.type === "filled" && "white"};
+  ${mobile({ margin: "20px 0" })}
+
 `;
 
 const TopTexts = styled.div`
+  ${mobile({ display: "none" })}
 
 `;
 
@@ -44,6 +54,8 @@ margin: 0 20px;
 const Bottom = styled.div`
 display: flex;
 justify-content: space-between;
+${mobile({ flexDirection: "column" })}
+
 `;
 
 const Info = styled.div`
@@ -53,6 +65,8 @@ flex: 3;
 const Product = styled.div`
 display: flex;
 justify-content: space-between;
+${mobile({ flexDirection: "column" })}
+
 `;
 
 const ProductDetails = styled.div`
@@ -62,6 +76,8 @@ display: flex;
 
 const Image = styled.img`
 width: 200px;
+${mobile({ objectFit: "contain" })}
+
 `;
 
 const Details = styled.div`
@@ -95,22 +111,28 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
+
 `;
 
 const ProductAmountContainer = styled.div`
 display: flex;
 align-items: center;
 margin-bottom: 20px;
+${mobile({ marginBottom: "0" })}
 `;
 
 const ProductAmount = styled.div`
 font-size: 24px;
 margin: 5px;
+${mobile({ margin: "20px" })}
+
 `;
 
 const ProductPrice = styled.div`
 font-size: 30px;
 font-weight: 200;
+${mobile({ marginBottom: "20px" })}
+
 `;
 
 const Hr = styled.hr`
@@ -172,7 +194,7 @@ const Cart = () => {
           <TopButton>continuer le shopping</TopButton>
           <TopTexts>
               <TopText>Panier (2)</TopText>
-              <TopText>Liste des souhaits (0)</TopText>
+              <TopText>Liste de souhaits (0)</TopText>
           </TopTexts>
           <TopButton type="filled">paiement</TopButton>
         </Top>

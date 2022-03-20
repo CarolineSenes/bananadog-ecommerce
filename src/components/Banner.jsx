@@ -1,4 +1,5 @@
 import styled from "@emotion/styled";
+import { mobile } from "../responsive";
 
 const Container = styled.div`
   width: 100%;
@@ -6,6 +7,9 @@ const Container = styled.div`
   display: flex;
   justify-content: center;
   overflow: hidden;
+  position: relative;
+  ${mobile({ display: "none" })}
+
 `;
 
 const Wrapper = styled.div`
@@ -23,8 +27,8 @@ const Card = styled.div`
 
 const ImgContainer = styled.div`
   height: 100%;
-  width: 100%;
   flex: 1;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -41,7 +45,7 @@ const InfoContainer = styled.div`
 `;
 
 const Title = styled.h1`
-  font-size: 60px;
+  font-size: 70px;
 `;
 
 const Desc = styled.p`

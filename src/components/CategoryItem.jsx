@@ -1,4 +1,6 @@
 import styled from "@emotion/styled";
+import { mobile } from "../responsive";
+
 
 const Container = styled.div`
 margin: 3px;
@@ -6,7 +8,9 @@ position: relative;
 `;
 
 const Image = styled.img`
-width:100%
+width:100%;
+${mobile({ height: "30vh", objectFit: "cover" })}
+
 `;
 
 const Info = styled.div`

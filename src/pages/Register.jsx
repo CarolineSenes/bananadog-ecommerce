@@ -1,4 +1,6 @@
 import styled from "@emotion/styled";
+import { mobile } from "../responsive";
+
 
 const Container = styled.div`
 width: 100vw;
@@ -12,6 +14,8 @@ const Wrapper = styled.div`
 padding: 20px;
 width: 40%;
 background-color: white;
+${mobile({ width: "80%" })}
+
 `
 
 const Title = styled.h1`
@@ -28,6 +32,8 @@ flex: 1;
 min-width: 40%;
 margin: 20px 10px 0 0;
 padding: 10px;
+${mobile({ fontSize: "12px" })}
+
 `
 const Agreement = styled.span`
 font-size: 12px;
