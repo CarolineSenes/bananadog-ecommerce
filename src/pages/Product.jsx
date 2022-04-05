@@ -61,7 +61,7 @@ const Filter = styled.div`
   align-items: center;
 `;
 
-const FilterTitle = styled.span`
+const FilterTitle = styled.label`
   font-size: 20px;
   font-weight: 200;
 `;
@@ -128,7 +128,7 @@ const Product = () => {
       <Navbar />
       <Wrapper>
         <ImgContainer>
-          <Image src="/assets/v3.jpg" />
+          <Image src="/assets/v3.jpg" alt=""/>
         </ImgContainer>
         <InfoContainer>
           <Title>Titre</Title>
@@ -137,18 +137,18 @@ const Product = () => {
           <FilterContainer>
             <Filter>
               <FilterTitle>Couleur</FilterTitle>
-              <FilterColor color="red" />
-              <FilterColor color="darkblue" />
-              <FilterColor color="gray" />
+              <FilterColor color="red" value="red"/>
+              <FilterColor color="darkblue" value="marine" />
+              <FilterColor color="gray" value="gris" />
             </Filter>
             <Filter>
-              <FilterTitle>Taille</FilterTitle>
-              <FilterSize>
-                <FilterSizeOption>XS</FilterSizeOption>
-                <FilterSizeOption>S</FilterSizeOption>
-                <FilterSizeOption>M</FilterSizeOption>
-                <FilterSizeOption>L</FilterSizeOption>
-                <FilterSizeOption>XL</FilterSizeOption>
+              <FilterTitle for="filter_size">Taille</FilterTitle>
+              <FilterSize id="filter_size">
+                <FilterSizeOption value="XS">XS</FilterSizeOption>
+                <FilterSizeOption value="S">S</FilterSizeOption>
+                <FilterSizeOption value="M">M</FilterSizeOption>
+                <FilterSizeOption value="L">L</FilterSizeOption>
+                <FilterSizeOption value="XL">XL</FilterSizeOption>
               </FilterSize>
             </Filter>
           </FilterContainer>

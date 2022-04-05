@@ -203,7 +203,7 @@ const Cart = () => {
             <Info>
                 <Product>
                     <ProductDetails>
-                        <Image src="/assets/h2.jpg"/>
+                        <Image src="/assets/h2.jpg" alt=""/>
                         <Details>
                             <ProductName><b>Article :</b> Pull</ProductName>
                             <ProductId><b>ID :</b> 15464456</ProductId>
@@ -223,7 +223,7 @@ const Cart = () => {
                 <Hr/>
                 <Product>
                     <ProductDetails>
-                        <Image src="/assets/h3.jpg"/>
+                        <Image src="/assets/h3.jpg" alt=""/>
                         <Details>
                             <ProductName><b>Article :</b> Veste</ProductName>
                             <ProductId><b>ID :</b> 4798774</ProductId>

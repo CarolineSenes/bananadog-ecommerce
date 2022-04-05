@@ -60,8 +60,8 @@ const Login = () => {
       <Wrapper>
         <Title>se connecter</Title>
         <Form>
-          <Input placeholder="Nom d'utilisateur" aria-label="Saisir votre nom d'utilisateur"/>
-          <Input placeholder="Mot de passe" aria-label="Saisir votre mot de passe"/>
+          <Input placeholder="Nom d'utilisateur" name="name" aria-label="name" />
+          <Input placeholder="Mot de passe" name="password" aria-label="password" />
           <Button>connexion</Button>
           <ForgotPass href="#">J'ai oublié mon mot de passe.</ForgotPass>
           <Link to="/register">Créer un compte.</Link>

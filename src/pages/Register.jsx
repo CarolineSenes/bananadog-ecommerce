@@ -56,12 +56,12 @@ const Register = () => {
         <Wrapper>
             <Title>Créer un nouveau compte</Title>
             <Form>
-                <Input placeholder="Nom"/>
-                <Input placeholder="Prénom"/>
-                <Input placeholder="Email"/>
-                <Input placeholder="Nom d'utilisateur"/>
-                <Input placeholder="Mot de passe"/>
-                <Input placeholder="Confirmation du mot de passe"/>
+                <Input placeholder="Nom" name="name" aria-label="name"/>
+                <Input placeholder="Prénom" name="firstname" aria-label="firstname"/>
+                <Input placeholder="Email" name="email" aria-label="email"/>
+                <Input placeholder="Nom d'utilisateur" name="login" aria-label="login"/>
+                <Input placeholder="Mot de passe" name="password" aria-label="password"/>
+                <Input placeholder="Confirmation du mot de passe" name="control_password" aria-label="control_password"/>
                 <Agreement>En créant ce compte, je consent à transmettre mes données personnelles selon la politique de condidentialité.</Agreement>
                 <Button>Créer</Button>
             </Form>

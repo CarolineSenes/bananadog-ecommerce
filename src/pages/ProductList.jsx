@@ -24,7 +24,7 @@ const Filter = styled.div`
 
 `;
 
-const FilterText = styled.span`
+const FilterText = styled.label`
   font-size: 20px;
   font-weight: 600;
   margin-right: 20px;
@@ -48,37 +48,37 @@ const ProductList = () => {
       <Title>Tous les articles</Title>
       <FilterContainer>
         <Filter>
-          <FilterText>Filtre :</FilterText>
-          <Select>
-            <Option disabled selected>
+          <FilterText for="filter">Filtre :</FilterText>
+          <Select id="filter">
+            <Option disabled selected value="">
               Couleur
             </Option>
-            <Option>Noir</Option>
-            <Option>Jaune</Option>
-            <Option>Rouge</Option>
-            <Option>Vert</Option>
-            <Option>Rose</Option>
-            <Option>Blanc</Option>
+            <Option value="Noir">Noir</Option>
+            <Option value="Jaune">Jaune</Option>
+            <Option value="Rouge">Rouge</Option>
+            <Option value="Vert">Vert</Option>
+            <Option value="Rose">Rose</Option>
+            <Option value="Blanc">Blanc</Option>
           </Select>
-          <Select>
+          <Select id="filter">
             <Option disabled selected>
               Taille
             </Option>
-            <Option>XS</Option>
-            <Option>S</Option>
-            <Option>M</Option>
-            <Option>L</Option>
-            <Option>XL</Option>
+            <Option value="XS">XS</Option>
+            <Option value="S">S</Option>
+            <Option value="M">M</Option>
+            <Option value="L">L</Option>
+            <Option value="XL">XL</Option>
           </Select>
         </Filter>
         <Filter>
-          <FilterText>Tri :</FilterText>
-          <Select>
-            <Option selected>
+          <FilterText for="sort">Tri :</FilterText>
+          <Select id="sort">
+            <Option selected value="">
               Nouveautés
             </Option>
-            <Option>Prix croissant</Option>
-            <Option>Prix décroissant</Option>
+            <Option value="croissant">Prix croissant</Option>
+            <Option value="décroissant">Prix décroissant</Option>
           </Select>
         </Filter>
       </FilterContainer>

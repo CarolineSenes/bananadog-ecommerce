@@ -69,13 +69,17 @@ const Navbar = () => {
           <SearchContainer>
             <Input
               placeholder="Chercher"
-              aria-label="Saisir le produit recherché"
+              type="text"
+              name="search"
+              aria-label="Search"
             />
             <Search style={{ color: "gray", fontSize: 16 }} />
           </SearchContainer>
         </Left>
         <Center>
-          <Logo><Link to="/">BANANA DOG</Link></Logo>
+          <Logo>
+            <Link to="/">BANANA DOG</Link>
+          </Logo>
         </Center>
         <Right>
           <MenuItem>
