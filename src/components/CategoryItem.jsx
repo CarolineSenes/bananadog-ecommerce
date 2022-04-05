@@ -40,7 +40,7 @@ cursor: pointer;
 
 const CategoryItem = ({ item }) => {
   return <Container>
-      <Image src={item.img}/>
+      <Image src={item.img} alt=""/>
       <Info>
           <Title>{item.title}</Title>
           <Button>ACHETER</Button>

@@ -62,13 +62,13 @@ const Button = styled.button`
   cursor: pointer;
 `;
 
-function Banner() {
+const Banner = () => {
   return (
     <Container>
       <Wrapper>
         <Card bg="f5fafd">
           <ImgContainer>
-            <Image src="/assets/v2.jpg" />
+            <Image src="/assets/v2.jpg" alt=""/>
           </ImgContainer>
           <InfoContainer>
             <Title>STREET STYLE</Title>

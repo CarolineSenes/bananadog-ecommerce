@@ -12,7 +12,7 @@ const Container = styled.div`
   flex-direction: column;
 `;
 const Title = styled.h2`
-  font-size: 70px;
+  font-size: 60px;
   margin-bottom: 20px;
 `;
 const Desc = styled.div`
@@ -54,8 +54,8 @@ const Newsletter = () => {
       <Title>Newsletter</Title>
       <Desc>Soyez prévenu de l'arrivée de nouveaux produits.</Desc>
       <InputContainer>
-        <Input placeholder="Email"></Input>
-        <Button>
+        <Input placeholder="Email" aria-label="Saisir votre adresse email"></Input>
+        <Button aria-label="Envoyer">
           <Send />
         </Button>
       </InputContainer>

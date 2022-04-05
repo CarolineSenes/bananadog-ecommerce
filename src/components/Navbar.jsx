@@ -72,7 +72,7 @@ const Navbar = () => {
       <Wrapper>
         <Left>
           <SearchContainer>
-            <Input placeholder="Chercher" />
+            <Input placeholder="Chercher" aria-label="Saisir le produit recherché"/>
             <Search style={{ color: "gray", fontSize: 16 }} />
           </SearchContainer>
         </Left>

@@ -114,8 +114,8 @@ const Footer = () => {
       <Right>
         <Title>Contact</Title>
         <ContactItem><Room style={{marginRight:"10px"}}/>18 rue des croquettes, 67356 OSVILLE</ContactItem>
-        <ContactItem><Phone style={{marginRight:"10px"}}/>03 88 55 99 66</ContactItem>
-        <ContactItem><MailOutline style={{marginRight:"10px"}}/>contact@bananadog.fr</ContactItem>
+        <ContactItem><Phone style={{marginRight:"10px"}}/><a href="tel:0388559966">03 88 55 99 66</a></ContactItem>
+        <ContactItem><MailOutline style={{marginRight:"10px"}}/><a href="mailto:contact@bananadog.fr">contact@bananadog.fr</a></ContactItem>
       </Right>
     </Container>
   );
