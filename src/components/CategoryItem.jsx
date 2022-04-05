@@ -28,6 +28,10 @@ flex-direction: column;
 const Title = styled.h2`
 color: white;
 margin-bottom: 20px;
+background-color: black;
+padding: 20px;
+border-radius: 50px;
+border: 2px solid white;
 `;
 
 const Button = styled.button`

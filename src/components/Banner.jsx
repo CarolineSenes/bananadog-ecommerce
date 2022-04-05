@@ -44,8 +44,9 @@ const InfoContainer = styled.div`
   padding: 50px;
 `;
 
-const Title = styled.h1`
+const Title = styled.p`
   font-size: 70px;
+  font-weight: bold;
 `;
 
 const Desc = styled.p`
