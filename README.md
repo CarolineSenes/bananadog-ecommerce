@@ -1,70 +1,78 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Application e-commerce d'accessoires pour chiens
 
-## Available Scripts
 
-In the project directory, you can run:
+Développement frontend d'une webapp avec data stockées en local (src/data.js).
 
-### `yarn start`
+[--> Démo déployée sur Netlify](https://banana-dog.netlify.app/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[![CodeFactor](https://www.codefactor.io/repository/github/carolinesenes/bananadog-ecommerce/badge)](https://www.codefactor.io/repository/github/carolinesenes/bananadog-ecommerce)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `yarn test`
+## Screenshots
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Home Desktop screenshot](https://github.com/CarolineSenes/bananadog-ecommerce/blob/master/public/assets/screenshots/desktop_home.png)
+![Register Desktop screenshot](https://github.com/CarolineSenes/bananadog-ecommerce/blob/master/public/assets/screenshots/desktop_register.png)
+![Products Desktop screenshot](https://github.com/CarolineSenes/bananadog-ecommerce/blob/master/public/assets/screenshots/desktop_products.png)
+![Product Desktop screenshot](https://github.com/CarolineSenes/bananadog-ecommerce/blob/master/public/assets/screenshots/desktop_product.png)
+![Cart Desktop screenshot](https://github.com/CarolineSenes/bananadog-ecommerce/blob/master/public/assets/screenshots/desktop_cart.png)
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Compétences acquises
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- créer une app en React.
+- utilisation de Styled Components et Material UI
+## Tech Stack
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Client:** React, React Router, JS, HTML, Styled Components, Material UI
+**Hébergement** : Netlify
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+  
+## Fonctionnalités
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Développées :**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- responsive
+- a11y
+- routing (en partie)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+**A développer :**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- afficher un produit spécifique (useParams())
+- valider la saisie de l'email de l'utilisateur
+- ajouter les liens dans le footer
+- afficher les produits par catégorie
+- fonctionnalité de recherche
+- fonctionnalités "filtre" et "tri" de la page "produits"
+- fonctionnalité d'ajout au panier
+- incrémenter/décrémenter quantité/article dans le panier avec recalcul du prix
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Optimisations réalisées
+- Responsive : mobile, tablet, desktop
+- SEO : meta title, meta descrption, favicon
+- a11y
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## Lancement
+Clôner le repo, puis :
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+# installer les dépendances
+$ yarn
 
-### Making a Progressive Web App
+# lancer
+$ yarn start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Ressources utilisées
 
-### Advanced Configuration
+- [Doc. React Router](https://reactrouter.com/docs/en/v6/upgrading/v5)
+- [Doc. React](https://fr.reactjs.org/)
+- [Doc. Material UI](https://mui.com/getting-started/installation/)
+- [Doc. Styled Components](https://styled-components.com/docs)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  
