@@ -1,6 +1,7 @@
 import styled from "@emotion/styled";
 import { Facebook, Instagram, MailOutline, Phone, Pinterest, Room, Twitter } from "@mui/icons-material";
 import { mobile } from "../responsive";
+import { Link } from "react-router-dom";
 
 
 const Container = styled.div`
@@ -101,8 +102,8 @@ const Footer = () => {
       <Center>
         <Title>Liens utiles</Title>
         <List>
-          <ListItem>Accueil</ListItem>
-          <ListItem>Panier</ListItem>
+          <ListItem><Link to="/">Accueil</Link></ListItem>
+          <ListItem><Link to="/cart">Panier</Link></ListItem>
           <ListItem>Catégorie Pulls</ListItem>
           <ListItem>Catégorie Veste</ListItem>
           <ListItem>Catégorie Tshirt</ListItem>

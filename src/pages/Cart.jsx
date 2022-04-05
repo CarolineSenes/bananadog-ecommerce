@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { Add, Remove } from "@mui/icons-material";
 import { mobile } from "../responsive";
+import { Link } from "react-router-dom";
 
 
 const Container = styled.div``;
@@ -191,7 +192,7 @@ const Cart = () => {
       <Wrapper>
         <Title>votre panier</Title>
         <Top>
-          <TopButton>continuer le shopping</TopButton>
+          <TopButton><Link to="/products">continuer le shopping</Link></TopButton>
           <TopTexts>
               <TopText>Panier (2)</TopText>
               <TopText>Liste de souhaits (0)</TopText>

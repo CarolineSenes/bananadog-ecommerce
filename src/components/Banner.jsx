@@ -1,5 +1,6 @@
 import styled from "@emotion/styled";
 import { mobile } from "../responsive";
+import { Link } from 'react-router-dom'
 
 const Container = styled.div`
   width: 100%;
@@ -74,7 +75,7 @@ const Banner = () => {
           <InfoContainer>
             <Title>STREET STYLE</Title>
             <Desc>NOUVELLE COLLECTION</Desc>
-            <Button>ACHETER</Button>
+            <Button><Link to="products">ACHETER</Link></Button>
           </InfoContainer>
         </Card>
       </Wrapper>

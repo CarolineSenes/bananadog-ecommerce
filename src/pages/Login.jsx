@@ -1,5 +1,6 @@
 import styled from "@emotion/styled";
 import { mobile } from "../responsive";
+import { Link } from 'react-router-dom'
 
 
 const Container = styled.div`
@@ -46,12 +47,11 @@ cursor: pointer;
 margin-bottom: 10px;
 `
 
-const Link = styled.a`
+const ForgotPass = styled.a`
 margin: 5px 0;
 font-size: 12px;
 text-decoration: underline;
 cursor: pointer;
-
 `
 
 const Login = () => {
@@ -60,11 +60,11 @@ const Login = () => {
       <Wrapper>
         <Title>se connecter</Title>
         <Form>
-          <Input placeholder="Nom d'utilisateur" />
-          <Input placeholder="Mot de passe" />
+          <Input placeholder="Nom d'utilisateur" aria-label="Saisir votre nom d'utilisateur"/>
+          <Input placeholder="Mot de passe" aria-label="Saisir votre mot de passe"/>
           <Button>connexion</Button>
-          <Link>J'ai oublié mon mot de passe.</Link>
-          <Link>Créer un compte.</Link>
+          <ForgotPass href="#">J'ai oublié mon mot de passe.</ForgotPass>
+          <Link to="/register">Créer un compte.</Link>
         </Form>
       </Wrapper>
     </Container>

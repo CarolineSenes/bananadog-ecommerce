@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
 import { mobile } from "../responsive";
-
+import { Link } from 'react-router-dom'
 
 const Container = styled.div`
 margin: 3px;
@@ -47,7 +47,7 @@ const CategoryItem = ({ item }) => {
       <Image src={item.img} alt=""/>
       <Info>
           <Title>{item.title}</Title>
-          <Button>ACHETER</Button>
+          <Button><Link to="products">ACHETER</Link></Button>
       </Info>
   </Container>;
 };

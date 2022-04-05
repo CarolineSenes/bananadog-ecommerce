@@ -30,7 +30,7 @@ export const products = [
   {
     id: 3,
     img: "/assets/v2.jpg",
-    name: "Vest verte"
+    name: "Veste verte"
   },
   {
     id: 4,
