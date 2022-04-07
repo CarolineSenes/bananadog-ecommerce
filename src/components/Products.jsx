@@ -11,13 +11,14 @@ const Container = styled.div`
 `;
 
 const Products = () => {
-
   return (
     <Container>
-      {products.map((item) => (
-        <Link to="#">
-          <Product item={item} key={item.id} />
-        </Link>
+      {products.map((item, index) => (
+        <div key={index}>
+          <Link to={`/product/${item.id}`} key={index}>
+            <Product item={item} key={item.id} />
+          </Link>
+        </div>
       ))}
     </Container>
   );

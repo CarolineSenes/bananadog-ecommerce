@@ -40,7 +40,6 @@ Développement frontend d'une webapp avec data stockées en local (src/data.js).
 
 **A développer :**
 
-- afficher un produit spécifique (useParams())
 - valider la saisie de l'email de l'utilisateur
 - ajouter les liens dans le footer
 - afficher les produits par catégorie
@@ -48,10 +47,11 @@ Développement frontend d'une webapp avec data stockées en local (src/data.js).
 - fonctionnalités "filtre" et "tri" de la page "produits"
 - fonctionnalité d'ajout au panier
 - incrémenter/décrémenter quantité/article dans le panier avec recalcul du prix
+- styliser les Link
 
 ## Optimisations réalisées
 - Responsive : mobile, tablet, desktop
-- SEO : meta title, meta descrption, favicon
+- SEO : meta title, meta descrption, favicon, open graph, twitter card
 - a11y
 
 
