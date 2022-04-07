@@ -48,7 +48,7 @@ const ProductList = () => {
       <Title>Tous les articles</Title>
       <FilterContainer>
         <Filter>
-          <FilterText for="filter">Filtre :</FilterText>
+          <FilterText htmlFor="filter">Filtre :</FilterText>
           <Select id="filter">
             <Option disabled selected value="">
               Couleur
@@ -72,7 +72,7 @@ const ProductList = () => {
           </Select>
         </Filter>
         <Filter>
-          <FilterText for="sort">Tri :</FilterText>
+          <FilterText htmlFor="sort">Tri :</FilterText>
           <Select id="sort">
             <Option selected value="">
               Nouveautés
