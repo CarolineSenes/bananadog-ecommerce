@@ -9,6 +9,8 @@ import Register from "../src/pages/Register";
 import ProductList from "../src/pages/ProductList";
 import Product from "../src/pages/Product";
 import Cart from "../src/pages/Cart";
+import NotFound from "./pages/NotFound";
+
 
 ReactDOM.render(
   <React.StrictMode>
@@ -20,6 +22,7 @@ ReactDOM.render(
         <Route path="/products" element={<ProductList />} />
         <Route path="/product/:id" element={<Product />} />
         <Route path="/cart" element={<Cart />} />
+        <Route path='*' element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
