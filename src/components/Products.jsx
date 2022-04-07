@@ -3,7 +3,7 @@ import { products } from "../data";
 import Product from "./Product";
 import { Link } from "react-router-dom";
 
-const Container = styled.div`
+const Container = styled.section`
   padding: 20px;
   display: flex;
   flex-wrap: wrap;

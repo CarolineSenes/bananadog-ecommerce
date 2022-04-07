@@ -3,7 +3,7 @@ import { Send } from "@mui/icons-material";
 import { mobile } from "../responsive";
 
 
-const Container = styled.div`
+const Container = styled.section`
   height: 60vh;
   background-color: #fcf5f5;
   display: flex;

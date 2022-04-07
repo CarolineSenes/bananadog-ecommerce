@@ -10,7 +10,7 @@ import { products } from "../data";
 
 const Container = styled.div``;
 
-const Wrapper = styled.div`
+const Wrapper = styled.section`
   padding: 50px;
   display: flex;
   ${mobile({ flexDirection: "column", padding: "10px" })}

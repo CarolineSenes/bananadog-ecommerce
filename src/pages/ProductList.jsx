@@ -13,7 +13,7 @@ const Title = styled.h1`
   margin: 20px;
 `;
 
-const FilterContainer = styled.div`
+const FilterContainer = styled.section`
   display: flex;
   justify-content: space-between;
 `;

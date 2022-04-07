@@ -2,7 +2,7 @@ import styled from "@emotion/styled";
 import { mobile } from "../responsive";
 import { Link } from 'react-router-dom'
 
-const Container = styled.div`
+const Container = styled.section`
   width: 100%;
   height: 100vh;
   display: flex;

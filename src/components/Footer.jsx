@@ -4,7 +4,7 @@ import { mobile } from "../responsive";
 import { Link } from "react-router-dom";
 
 
-const Container = styled.div`
+const Container = styled.footer`
   display: flex;
   ${mobile({ flexDirection: "column" })}
 

@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 const Container = styled.div``;
 
-const Wrapper = styled.div`
+const Wrapper = styled.section`
   padding: 20px;
   ${mobile({ padding: "10px" })}
 

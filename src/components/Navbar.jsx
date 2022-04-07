@@ -5,7 +5,7 @@ import styled from "@emotion/styled";
 import { mobile } from "../responsive";
 import { Link } from "react-router-dom";
 
-const Container = styled.div``;
+const Container = styled.header``;
 
 const Wrapper = styled.div`
   padding: 10px 20px;
