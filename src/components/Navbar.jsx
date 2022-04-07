@@ -12,7 +12,7 @@ const Wrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  ${mobile({ flexWrap: "wrap" })}
+  ${mobile({ flexWrap: "wrap", flexDirection: "column", display: "block" })}
 `;
 
 const Left = styled.div`
@@ -27,12 +27,12 @@ const SearchContainer = styled.div`
   align-items: center;
   margin-left: 25px;
   padding: 5px;
-  ${mobile({ marginLeft: "0" })}
+  ${mobile({ marginLeft: "0", width: "100%", marginBottom: "10px" })}
 `;
 
 const Input = styled.input`
   border: none;
-  ${mobile({ width: "70px", fontSize: "12px" })}
+  ${mobile({ width: "100%", fontSize: "12px" })}
 `;
 
 const Center = styled.div`
